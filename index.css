@@ -157,6 +157,7 @@ ul > li {
 /* category container */
 .card__sections__container {
     max-width: 1240px;
+    position: relative;
     margin: 0 auto;
     .main__section--category {
         width: 100%;
@@ -281,6 +282,24 @@ ul > li {
         font-size: 20px;
         line-height: 30px;
         font-weight: 600;
+    }
+    .arrow-rigth__container--1,
+    .arrow-rigth__container--2 {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        border: 1px solid #111111;
+        position: absolute;
+        right: -80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .arrow-rigth__container--1 {
+        top: 520px;
+    }
+    .arrow-rigth__container--2 {
+        top: 980px;
     }
 }
 /* popular destination */
