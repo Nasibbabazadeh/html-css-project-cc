@@ -213,6 +213,7 @@ ul > li {
         display: flex;
         flex-direction: column;
         gap: 3px;
+        border-top-right-radius: 20px;
     }
     @media (max-width: 1178px) {
         .popular-events__card__container {
@@ -225,6 +226,10 @@ ul > li {
     }
     .popular-events__card__img > img {
         object-fit: cover;
+    }
+    .img--7 {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
     }
     .popular-events__card__img > div {
         width: 44px;
